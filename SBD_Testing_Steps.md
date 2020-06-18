@@ -188,7 +188,10 @@ osdsctl profile create '{"name": "default", "description": "default policy", "st
 
 #### Create Volume
 ```
-osdsctl profile create '{"name": "default", "description": "default policy", "storageType": "block"}'
+osdsctl volume create 1 --name=test-001
+
 # List Volumes
+
 osdsctl volume list
+
 # This will give list of volumes created using opensds
